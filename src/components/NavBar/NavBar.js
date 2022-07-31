@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Navbar, Nav, Container } from 'react-bootstrap';
 import navIcon2 from '~/assets/img/nav-icon2.svg';
 import navIcon3 from '~/assets/img/nav-icon3.svg';
-import CV from '~/assets/img/CV.pdf';
+import CV from '~/assets/img/CV-EN.pdf';
 import './NavBar.scss';
 import { useTranslation } from 'react-i18next';
 import cookies from 'js-cookie';

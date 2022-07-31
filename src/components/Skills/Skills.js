@@ -1,3 +1,4 @@
+import meter from '~/assets/img/meter.svg';
 import meter1 from '~/assets/img/meter1.svg';
 import meter2 from '~/assets/img/meter2.svg';
 import meter3 from '~/assets/img/meter3.svg';
@@ -43,19 +44,19 @@ export const Skills = () => {
                                 className="owl-carousel owl-theme skill-slider"
                             >
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
+                                    <img src={meter} alt="Image" />
                                     <h5>HTML / CSS / SCSS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
+                                    <img src={meter} alt="Image" />
                                     <h5>React JS</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
+                                    <img src={meter} alt="Image" />
                                     <h5>Javascript</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
+                                    <img src={meter} alt="Image" />
                                     <h5>Axios</h5>
                                 </div>
                             </Carousel>
